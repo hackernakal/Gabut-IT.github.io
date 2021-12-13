@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../assets/img/favicon.ico">
+    <title>GabutIT</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/mediumish.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Begin Nav
+================================================== -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <!-- Begin Logo -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.png" alt="logo">
+            </a>
+            <!-- End Logo -->
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <!-- Begin Menu -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://gabut-it.github.io/portofolio/">Portofolio</a>
+                    </li>
+                </ul>
+                <!-- End Menu -->
+                <!-- Begin Search -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <span class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                            <path
+                                d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z">
+                            </path>
+                        </svg></span>
+                </form>
+                <!-- End Search -->
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav
+================================================== -->
+
+    <!-- Begin Article
+================================================== -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Begin Fixed Left Share -->
+            <div class="col-md-2 col-xs-12">
+                <div class="share">
+
+                </div>
+            </div>
+            <!-- End Fixed Left Share -->
+
+            <!-- Begin Post -->
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <div class="mainheading">
+
+                    <h1 class="posttitle">PHP part 6</h1>
+
+
+                </div>
+
+                <!-- Begin Featured Image -->
+                <img class="featured-image img-fluid" src="../assets/img/php/64.png" alt="">
+                <!-- End Featured Image -->
+
+                <!-- Begin Post Content -->
+                <div class="article-post">
+                    <h1>
+                        Prinsip Keamanan
+                    </h1>
+                    <img class="featured-image img-fluid" src="../assets/img/php/65.png" alt="">
+                    <h1>
+                        Keamanan End-to-End
+                    </h1>
+                    <img class="featured-image img-fluid" src="../assets/img/php/66.png" alt="">
+                    <h1>
+                        Keamanan Basisdata
+                    </h1>
+                    <img class="featured-image img-fluid" src="../assets/img/php/67.png" alt=""> <br>
+                    <img class="featured-image img-fluid" src="../assets/img/php/68.png" alt="">
+                    <h1>
+                        Pengamanan Password
+                    </h1>
+                    <p>
+                        Tidak menyimpan data password dalam bentuk “clear
+                        text” di dalam basisdata
+                    </p>
+                    <p>
+                        Gunakan fungsi/function hashing untuk enkripsi data:
+                        md5, sha2, ...
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/69.png" alt="">
+                    <h1>
+                        Pengamanan Password lanjutan ke 2
+                    </h1>
+                    <p>
+                        Buat tabel untuk menyimpan data user dan
+                        password. Contoh: tabel (admin)
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/70.png" alt="">
+                    <p>
+                        Tambahkan data ke tabel admin
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/71.png" alt=""> <br>
+                    <img class="featured-image img-fluid" src="../assets/img/php/72.png" alt="">
+                    <h1>
+                        SQL Injection
+                    </h1>
+                    Jangan menggunakan pernyataan SQL yang
+                    menggabungkan masukan user secara langsung gunakan
+                    PDO Prepared Statements: <br> prepare(), <br> bindValue(), <br>
+                    execute()
+                    <img class="featured-image img-fluid" src="../assets/img/php/73.png" alt="">
+                    <h1>
+                        Script Injection
+                    </h1>
+                    <p>
+                        Jangan secara langsung menampilkan masukan user yang
+                        berupa skrip --> gunakan fungsi/function (htmlspecialchars)
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/74.png" alt="">
+                    <h1>
+                        XML Attack
+                    </h1>
+                    <p>
+                        XML attack adalah Denial-of-Service (DoS) attack
+                    </p>
+                    <p>
+                        Merupakan XML schema yang well-formed dan valid
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/75.png" alt="">
+                    <h1>
+                        Implementasi keamanan yang lemah
+                    </h1>
+                    <p>
+                        1. Tidak mengimplementasikan sistem keamanan terbaru
+                        (Web Browser, Web Server, ...)
+                    </p>
+                    <p>
+                        2. Tidak mengimplementasikan mekanisme password yang
+                        baik
+                    </p>
+                    <p>
+                        3. Hanya mengandalkan validasi client-side
+                    </p>
+                    <p>
+                        4. Kecerobohan pengembang aplikasi web (developer
+                        problem)
+                    </p>
+                    <h1>
+                        Developer Problem
+                    </h1>
+                    <p>
+                        1. Error reporting tidak diaktifkan
+                    </p>
+                    <p>
+                        2. Variabel tanpa inisialisasi nilai
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/76.png" alt="">
+                    <p>
+                        3. Variabel global: php.ini --> register_global = On
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/77.png" alt="">
+                    <h1>
+                        Session
+                    </h1>
+                    <img class="featured-image img-fluid" src="../assets/img/php/78.png" alt="">
+                    <h1>
+                        Session untuk Authorization: Kategori halaman web
+                    </h1> <br>
+                    <img class="featured-image img-fluid" src="../assets/img/php/79.png" alt="">
+
+                    <h1>
+                        Session untuk Authorization: Kategori halaman web
+                    </h1>
+                    <p>
+                        Untuk halaman non-publik, tambahkan skrip seperti
+                        contoh berikut:
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/80.png" alt="">
+                    <h1>
+                        Session untuk Authorization: Halaman LOGIN
+                    </h1>
+                    <p>
+                        Buat halaman login.php --> halaman ini harus dikirimkan
+                        ke dirinya sendiri (cek konsep self-submission)
+                    </p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/81.png" alt="">
+                    <p>selanjutnya</p>
+                    <img class="featured-image img-fluid" src="../assets/img/php/82.png" alt="">
+                    <img class="featured-image img-fluid" src="../ass
+                    ets/img/php/83.png" alt="">
+
+
+                </div>
+                <!-- End Post Content -->
+                <br><br><br>
+
+                <!-- Begin Tags -->
+                <p>
+                    <--- materi sebelunya</p> <div class="after-post-tags">
+                        <ul class="tags">
+                            <li><a href="../post.html">php 1</a></li>
+                            <li><a href="php2.html">php 2</a></li>
+                            <li><a href="php3.html">php 3</a></li>
+                            <li><a href="php4.html">php 4</a></li>
+                            <li><a href="php5.html">php 5</a></li>
+                            <li><a href="php6.html">php 6</a></li>
+                        </ul>
+            </div>
+            <!-- End Tags -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+
+    <!-- End Article
+================================================== -->
+
+    <div class="hideshare"></div>
+
+    <!-- End Related Posts
+================================================== -->
+
+    <!-- Begin chat
+================================================== -->
+
+    <section class="recent-posts">
+        <div class="section-title">
+            <h2><span>Discussion</span></h2>
+        </div>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://https-gabut-it-github-io.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                by Disqus.</a></noscript>
+
+    </section>
+    <!-- End chat
+================================================== -->
+
+    <!-- Begin Footer
+================================================== -->
+    <div class="footer">
+        <p class="pull-left">
+            Copyright &copy; zaka fahmi
+        </p>
+        <div class="clearfix">
+        </div>
+    </div>
+    <!-- End Footer
+================================================== -->
+    </div>
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/mediumish.js"></script>
+</body>
+
+</html>
