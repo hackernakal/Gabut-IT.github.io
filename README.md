@@ -1,4 +1,5 @@
 # Gabut-IT.github.io
+![icon](https://github.com/Gabut-IT/Gabut-IT.github.io/blob/main/assets/img/banner1.png)
 ### web galeri projek  
 
 semua projek Gabut-IT akan di publish disini <br>
