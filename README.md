@@ -4,9 +4,10 @@
 
 semua projek Gabut-IT akan di publish disini <br>
 keterangan :
-1. web ini menggunkan bootstrap 5
+1. html
 2. javascrip
 3. css
+4. front end framework (bootstrap 5)
 <br>
 web ini opensorce jadi boleh digunakan kembali 
 <br>
