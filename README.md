@@ -9,6 +9,6 @@ keterangan :
 3. css
 4. front end framework (bootstrap 5)
 <br>
-web ini opensorce jadi boleh digunakan kembali 
+web ini opensorce jadi boleh digunakan kembali.
 <br>
 link web Gabut-IT :  https://gabut-it.github.io/
